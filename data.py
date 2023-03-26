@@ -21,7 +21,7 @@ data = [
     },
     {
         "tag":"menu",
-        "patterns":["where can i find the menu", "what foods does the menu include", "tell me what menu includes", "what drinks do you have", "what food do you have"],
+        "patterns":["where can i find the menu", "what foods does the menu include", "tell me what menu includes", "what drinks do you have", "what food do you have", "what can i eat", "what can i drink"],
         "responses":["You can check the menu in our website www.example.gr/menu at your convinience"]
     },
     {
