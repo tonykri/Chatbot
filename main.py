@@ -45,7 +45,7 @@ print("Hello how can I help you?")
 while True:
     question = input()
     result = removeStopwords(question)
-    xNewCounts = countVectorizer.transform([question])
+    xNewCounts = countVectorizer.transform([result])
     xNewTfidf = tfidTransformer.transform(xNewCounts)
     xNewTfidf = xNewTfidf.toarray()
 
